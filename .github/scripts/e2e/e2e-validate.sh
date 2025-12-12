@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+echo "RCE"
+
 # -----------------------------------------------------------------------------
 # e2e-validate.sh — CI e2e Gateway smoke-test (chat + completion, 7 iterations)
 # By default we only test completion curls unless specifed to run chat.
